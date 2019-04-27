@@ -125,13 +125,9 @@ table {
 
 /***************************************************************/
 
-/* main container */
+/* main container/ REUSED ITEMS */
 .container {
   max-width: 1500px;
-}
-
-.top-container {
-  border: 1px solid black;
 }
 nav {
   border: 1px solid black;
@@ -144,4 +140,25 @@ a {
   text-decoration: none;
   color: white;
   font-size: 30px;
+}
+
+/* HOME PAGE*/
+
+img {
+}
+
+/* BIO PAGE */
+.bio-section {
+  display: flex;
+  justify-content: space-between;
+}
+.bio-left {
+  border: 1px solid black;
+}
+.bio-left p {
+  line-height: 20px;
+}
+
+.bio-picture {
+  border: 1px solid black;
 }
